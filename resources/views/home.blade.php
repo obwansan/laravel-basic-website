@@ -3,6 +3,7 @@
 
 @section('content')
   <h1>Home</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet soluta beatae asperiores aliquid? Repellendus quas earum reiciendis. Molestiae eos iusto tenetur et velit eveniet, sapiente aliquam possimus earum facilis!</p>
 @endsection
 
 <!-- The paragraph is rendered by '@show' in app.blade.php
