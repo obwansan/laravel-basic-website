@@ -1,0 +1,43 @@
+<!-- From section 9.Forms with Laravel Collective
+  
+  So, meanwhile I created my own form without Laravel Collective and thought I might just share it here. I finished the complete BasicWebsite section successfully with this form: -->
+
+<form class="form" action="/contact/submit" method="post">
+
+    @csrf
+
+
+
+    <fieldset class="form-group">
+
+        <label for="name">your name:</label>
+
+        <input type="text" class="form-control" name="name" placeholder="name">
+
+    </fieldset>
+
+
+
+    <fieldset class="form-group">
+
+        <label for="email">your email</label>
+
+        <input type="text" class="form-control" name="email" placeholder="email">
+
+    </fieldset>
+
+
+
+    <fieldset class="form-group">
+
+        <label for="message">>Your Message</label>
+
+        <input type="textarea" class="form-control" name="message" placeholder="message">
+
+    </fieldset>
+
+
+
+    <button type="submit" class="btn btn-outline-primary" name="submit">submit</button>
+
+</form>
