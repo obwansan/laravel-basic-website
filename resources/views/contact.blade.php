@@ -17,6 +17,8 @@
     {{ Form::textArea('Message', '', ['class' => 'form-control', 'placeholder' => 'Enter message']) }}
    </div>
    <div>
+     <!-- Clicking submit takes you to the /contact/submit route (how?) in web.php which calls
+    the submit function on the MessageController class. -->
      {{ Form::submit('Submit', ['class' => 'btn btn-primary']) }}
    </div>
   {!! Form::close() !!}

@@ -18,6 +18,7 @@
     @endif
     <div class="row">
       <div class="col-md-8 col-lg-8">
+        @include('inc.messages')
         <!-- Looks in views folder and renders HTML wrapped in section('content') -->
         @yield('content')
       </div>
