@@ -14,7 +14,7 @@
    </div>
    <div class="form-group">
     {{ Form::label('message', 'Message') }}
-    {{ Form::textArea('Message', '', ['class' => 'form-control', 'placeholder' => 'Enter message']) }}
+    {{ Form::textarea('message', '', ['class' => 'form-control', 'placeholder' => 'Enter message']) }}
    </div>
    <div>
      <!-- Clicking submit takes you to the /contact/submit route (how?) in web.php which calls
